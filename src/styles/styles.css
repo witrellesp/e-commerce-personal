@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(103, 72, 226);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  margin: 0%;
+  padding: 0%;
+}
+h1,
+h2 {
+  color: white;
+}
+nav {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  border: 1px solid rgb(103, 72, 226);
+  border-radius: 10%;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: rgb(103, 72, 226);
+  height: 60px;
+  width: 100px;
+  border-radius: 15%;
+}
+.titleNav {
+  color: rgb(103, 72, 226);
+}
+section {
+  height: auto;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+img {
+  height: 250px;
+}
+h4,
+h3 {
+  color: rgb(103, 72, 226);
+}
+.buttonProduct {
+  border: 1px solid rgb(103, 72, 226);
+  border-radius: 10%;
+  width: 200px;
+}
+section > button {
+  background-color: rgb(103, 72, 226);
+  color: white;
+  width: 200px;
+}
+.bouttonAddProduct {
+  color: white;
+  width: 200px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
