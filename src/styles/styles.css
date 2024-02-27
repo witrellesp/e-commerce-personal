@@ -1,14 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  background-color: rgb(103, 72, 226);
+}
+aside {
+  padding: 1.5rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.textFooter {
+  color: rgb(182, 178, 199);
+  font-size: 0.7rem;
+}
+
+main {
+  background-color: white;
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+/*
 body {
   background-color: rgb(103, 72, 226);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-  margin: 0%;
-  padding: 0%;
+s
 }
-h1,
-h2 {
+
+.produitTitre,
+.bouttonAddProduct,
+.produitPrix,
+.titrePrincipal {
   color: white;
 }
 nav {
@@ -71,3 +133,4 @@ main {
   display: flex;
   flex-direction: row;
 }
+*/

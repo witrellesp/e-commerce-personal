@@ -5,56 +5,94 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <script src="scripts/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <title>E-COMMERCE</title>
   </head>
   <body>
-    <header></header>
-    <nav class="">
-      <h1 class="titleNav">E-COMMERCE</h1>
-      <ul>
-        <li>Tous les produits</li>
-        <li>T-shirts</li>
-        <li>Pantalons</li>
-        <li>Vestes</li>
-      </ul>
-      <div class="panier">
-        <button>Panier</button>
-        <button>Se connecter</button>
-        <a href="">S'enregistrer</a>
-      </div>
-    </nav>
-    <h2>Tous les produits</h2>
-    <main>
-      <section class="produit">
-        <img src="images/tshirt1.jfif" alt="" />
-        <div class="buttonProduct">
-          <h3>T-shirt</h3>
-          <h4>200 CHF</h4>
-          <button class="bouttonAddProduct">Ajouter au panier</button>
-        </div>
-      </section>
-      <section class="produit">
-        <img src="images/tshirt1.jfif" alt="" />
-        <div class="buttonProduct">
-          <h3>T-shirt</h3>
-          <h4>200 CHF</h4>
-          <button class="bouttonAddProduct">Ajouter au panier</button>
-        </div>
-      </section>
-      <section class="produit">
-        <img src="images/tshirt1.jfif" alt="" />
-        <div class="buttonProduct">
-          <h3>T-shirt</h3>
-          <h4>200 CHF</h4>
-          <button class="bouttonAddProduct">Ajouter au panier</button>
-        </div>
-      </section>
+    <div class="wrapper">
+      <aside>
+        <header class="logo">E-COMMERCE <i class="bi bi-shop"></i></header>
 
-      <section></section>
-      <section></section>
-    </main>
-    <aside></aside>
+        <nav class="">
+          <ul>
+            <li>
+              <button class="btnMenu btn-categorie active">
+                <i class="bi bi-hand-index-fill"></i>Tous les produits
+              </button>
+            </li>
+            <li>
+              <button class="btnMenu btn-categorie">
+                <i class="bi bi-hand-index"></i>T-shirts
+              </button>
+            </li>
+            <li>
+              <button class="btnMenu btn-categorie">
+                <i class="bi bi-hand-index"></i>Pantalons
+              </button>
+            </li>
+            <li>
+              <button class="btnMenu btn-categorie">
+                <i class="bi bi-hand-index"></i>Vestes
+              </button>
+            </li>
+            <li>
+              <a class="btnMenu btn-Panier" href="./pages/panier.html"
+                ><i class="bi bi-cart3"></i>Panier<span class="numero">0</span>
+              </a>
+            </li>
+          </ul>
+          <div class="btnLog">
+            <button>Se connecter</button>
+            <a href="">S'enregistrer</a>
+          </div>
+        </nav>
 
-    <footer></footer>
+        <footer>
+          <p class="textFooter">© E-commerce 2024</p>
+        </footer>
+      </aside>
+
+      <main>
+        <h2 class="titrePrincipal">Tous les produits</h2>
+        <div class="containerProduits">
+          <div class="produit">
+            <img src="images/t-shirt1.avif" alt="" />
+            <div class="infoProduit">
+              <h3 class="produitTitre">T-shirt 1</h3>
+              <h4 class="produitPrix">200 CHF</h4>
+              <button class="bouttonAjouter">Ajouter au panier</button>
+            </div>
+          </div>
+          <div class="produit">
+            <img src="images/t-shirt2.jpg" alt="" />
+            <div class="infoProduit">
+              <h3 class="produitTitre">T-shirt 2</h3>
+              <h4 class="produitPrix">200 CHF</h4>
+              <button class="bouttonAjouter">Ajouter au panier</button>
+            </div>
+          </div>
+          <div class="produit">
+            <img src="images/t-shirt3.jpg" alt="" />
+            <div class="infoProduit">
+              <h3 class="produitTitre">T-shirt 3</h3>
+              <h4 class="produitPrix">200 CHF</h4>
+              <button class="bouttonAjouter">Ajouter au panier</button>
+            </div>
+          </div>
+          <div class="produit">
+            <img src="images/t-shirt4.jpg" alt="" />
+            <div class="infoProduit">
+              <h3 class="produitTitre">T-shirt 4</h3>
+              <h4 class="produitPrix">200 CHF</h4>
+              <button class="bouttonAjouter">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

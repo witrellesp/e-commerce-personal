@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script src="scripts/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header class="logo">E-COMMERCE</header>
+        <nav class="">
+          <ul>
+            <li>
+              <a class="btnMenu btnRetour" href="../index.html"
+                ><i class="bi bi-arrow-left"></i>Continuer l'achat
+              </a>
+            </li>
+            <li>
+              <a class="btnMenu btnPanier active" href="pages/panier.html"
+                ><i class="bi bi-cart3"></i>Panier
+              </a>
+            </li>
+          </ul>
+          <div class="btnLog">
+            <button>Se connecter</button>
+            <a href="">S'enregistrer</a>
+          </div>
+        </nav>
+        <footer>
+          <p class="textFooter">© E-commerce 2024</p>
+        </footer>
+      </aside>
+
+      <main>
+        <h2 class="titrePrincipal">Panier</h2>
+        <div class="panier">
+          <p class="panierVide">
+            <i class="bi bi-emoji-frown"></i>Votre panier est vide
+          </p>
+          <div class="panierProduits">
+            <div class="panierProduit">
+              <img src="../images/t-shirt1.avif" alt="" />
+            </div>
+            <div class="produitTitre">
+              <small>Produit</small>
+              <h3>T-shir1</h3>
+            </div>
+            <div class="produitQuantite">
+              <small>Quantité</small>
+              <h3>1</h3>
+            </div>
+            <div class="produitPrix">
+              <small>Prix</small>
+              <h3>200 CHF</h3>
+            </div>
+            <div class="produitTotal">
+              <small>Total</small>
+              <h3>200 CHF</h3>
+            </div>
+            <div class="poubelle">
+              <button><i class="bi bi-trash-fill"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="actionsProduit">
+          <div class="actionsProduitGauche">
+            <button class="viderPanier">Vider le panier</button>
+          </div>
+          <div class="actionsProduitDroit">
+            <div class="actionsProduitTota">
+              <p>Total:</p>
+              <p>200 CHF</p>
+            </div>
+            <button class="actionsProduitAcheter">Acheter maintenant</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
